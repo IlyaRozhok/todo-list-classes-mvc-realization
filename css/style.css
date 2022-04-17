@@ -1,0 +1,93 @@
+body {
+    background-color: #147a58;
+}
+
+.taskWrapper {
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.taskHeading {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.taskDescription {
+    font-size: 16px;
+}
+
+.hrNormalize {
+    margin: 0;
+    padding: 0;
+}
+
+.options {
+    display: inline-block;
+}
+
+.col-4 {
+    overflow-wrap: anywhere;
+}
+
+.taskWrapper {
+    background-color: #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 1px rgba(0, 0, 0, .2);
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#todoForm label {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.taskHeading {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.taskDescription {
+    font-size: 16px;
+}
+
+.taskMenu {
+    position: relative;
+}
+
+.form-check-input:checked {
+    background-color: #1f7e3f;
+    border-color: #b3b3b3;
+
+}
+
+.form-check-input:active {
+    outline: none;
+    border: none;
+
+}
+
+.form-check-label {
+    font-size: 13px;
+}
+
+.form-check {
+    position: absolute;
+    top: 10px;
+}
+
+.redCross {
+    margin-left: 90%;
+    width: 27px;
+    height: 27px;
+    border: 1px solid rgba(41, 40, 40, 0.2);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.redCross:hover {
+    background-color: #c41212;
+}
