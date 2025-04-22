@@ -1,9 +1,7 @@
-# Todo list using:
+# Hillel Front-End Pro - Todo 
 
-Bootstrap
+Tech:
+js
+bootstrap
 
-Classes
-
-Modules
-
-MVC
+mvc/oop
